@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Baby Feeding Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Baby Feeding Calculator 🍼</h1>
+        <h2>Calculate the Food Amount Based on Age & Weight!</h2>
+        <p>Enter the baby's age in months and days:</p>
+        <input type="number" placeholder="Months" id="months">
+        <input type="number" placeholder="Days" id="days">
+        <p>Enter the baby's weight in kilograms:</p>
+        <input type="number" placeholder="Weight in kg" id="weight">
+        <button onclick="calculateFormulaAmount()">Calculate</button>
+        <div id="results" style="margin-top: 20px;"></div>
+    </div>
+</body>
+</html>
